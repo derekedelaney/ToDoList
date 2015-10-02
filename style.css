@@ -1,0 +1,32 @@
+
+footer div p {
+    font-size: 10px;
+}
+
+input {
+    background-color: transparent;
+    border: none;
+}
+
+input:focus {
+    outline: none;
+}
+
+
+header {
+    background-color: indianred;
+    margin: -10px -10px 0 -10px;
+    padding: 10px 30px;
+}
+
+.body {
+    background-color: lightyellow;
+    margin: -10px;
+    padding: 30px
+
+}
+
+footer {
+    margin: 10px -10px -10px -10px;
+    padding: 10px;
+}
