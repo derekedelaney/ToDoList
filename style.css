@@ -6,12 +6,18 @@ footer div p {
 input {
     background-color: transparent;
     border: none;
+    font-size: .8em;
+    width: 100%;
 }
 
 input:focus {
     outline: none;
 }
 
+li {
+    font-size: 1.7em;
+    margin-bottom: 11px;
+}
 
 header {
     background-color: indianred;
@@ -20,9 +26,9 @@ header {
 }
 
 .body {
-    background-color: lightyellow;
+    background-image: url(paper-line.PNG);
     margin: -10px;
-    padding: 30px
+    padding: 5px 30px
 
 }
 
