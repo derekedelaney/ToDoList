@@ -7,7 +7,7 @@ footer div p {
     background-color: transparent;
     border: none;
     font-size: .8em;
-    width: 94%;
+    width: 92%;
 }
 
 input:focus {
@@ -51,7 +51,11 @@ button {
     width: 100px;
 }
 
-ul {
+.edit {
     list-style-type: none;
     padding-left: 0px;
+}
+
+.checkbox{
+    margin-right: 10px;
 }
