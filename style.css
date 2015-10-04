@@ -1,13 +1,13 @@
 
 footer div p {
-    font-size: 10px;
+    font-size: 1em;
 }
 
-input {
+.textField {
     background-color: transparent;
     border: none;
     font-size: .8em;
-    width: 100%;
+    width: 94%;
 }
 
 input:focus {
@@ -33,6 +33,25 @@ header {
 }
 
 footer {
-    margin: 10px -10px -10px -10px;
+
+}
+
+.editDiv {
+    margin: -20px -10px 0px;
+    padding: 10px 60px;
+    background-image: url(paper-no-line.png);
+}
+
+.hidden {
+    display: none;
+}
+
+button {
     padding: 10px;
+    width: 100px;
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 0px;
 }
