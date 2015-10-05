@@ -12,12 +12,15 @@ $(document).ready(function(){
 
     $("#deleteButton").click(function() {
         // remove checked items
-        if($(".checkbox").prop("checked")){
-            $(".chechbox").has().prop("checked").parent().remove();
-        }
+        $(":checked").parent().remove();
 
         $("ol").toggleClass("edit");
         $(".checkbox").remove();
+
+        // Check if all have been removed. If so, add a new line.
+        if(!$("ol").children().is("li")){
+             $("ol").append('<li class="listItem"><input class="textField" type="text"></li>');
+        }
     });
 
 });
